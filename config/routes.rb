@@ -6,6 +6,8 @@ Rails.application.routes.draw do
   # root 'home#about'
   get 'home/about'
 
+  get 'home/swim_team'
+
   get 'home/index'
  root 'home#index'
 
